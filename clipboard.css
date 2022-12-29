@@ -1,0 +1,204 @@
+:root{
+    --clr-blue-btn: hsl(210°, 11%, 96%);
+    --clr-cyan-btn: hsl(171°, 100%, 37%);
+    --clr-footer: hsl(210°, 11%, 96%);
+    --ff-primary: 'Bai Jamjuree';
+}
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+header{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1, button, p {
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: .5rem 1.5rem;
+    border-radius: 100vmax;
+    background-color: var(--clr-cyan-btn);
+}
+
+#subhead{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#subhead p{
+    margin: 1rem auto;
+    width: 40%;
+}
+
+.feature_benefit{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.feature_benefit h3{
+    font-size: 2rem;
+}
+
+.feature_benefit p{
+    margin-top: .5rem;
+    text-align: left;
+}
+
+.feature_benefit ul{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+#access_supercharge{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#access_supercharge img{
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+
+#hr-list ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+#hr-list img{
+    margin: 0 auto;
+    width: 36px;
+    height: 32px;
+}
+
+#hr-list img, h3, p{
+    margin-bottom: 1rem;
+}
+
+#hr-list h3, p{
+    text-align: center;
+}
+
+#img_row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+footer{
+    margin-top: 2rem;
+}
+
+#pre-footer{
+    text-align: center;
+}
+
+#pre-footer h2, p{
+    margin-bottom: 1rem;
+}
+
+#footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo_footer{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+#list_container ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+}
+
+#social_container{
+    margin-right: 1rem;
+}
+
+#social_container ul{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    padding-top: 1.2rem;
+}
